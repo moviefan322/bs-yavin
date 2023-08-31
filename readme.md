@@ -42,3 +42,4 @@ You can add Bootstrap variables to the `bootstrap.scss` file. You can look at th
 
 To add your own custom styles, use the `styles.scss` file.
 # bs-yavin
+# bs-yavin
