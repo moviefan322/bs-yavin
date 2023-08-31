@@ -1,11 +1,14 @@
 function userScroll() {
   const navbar = document.querySelector(".navbar");
+  const toTopButton = document.querySelector("#to-top");
 
   window.addEventListener("scroll", () => {
     if (window.scrollY > 50) {
       navbar.classList.add("navbar-sticky");
+      toTopButton.classList.add("show");
     } else {
       navbar.classList.remove("navbar-sticky");
+      toTopButton.classList.remove("show");
     }
   });
 }
